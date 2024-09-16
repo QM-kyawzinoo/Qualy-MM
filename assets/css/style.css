@@ -168,14 +168,12 @@ Top Page
   }
   .menu-image {
     position: absolute;
-    width: 17px;
-    height: 15px;
-    top: 30%;
-    left: 23%;
+    width: 35px;
+    height: 35px;
+    top: 0;
+    left: 0;
   }
   .menu-background {
-    background-color: #003c6a;
-    border-radius: 50%;
     position: relative;
     width: 35px;
     height: 35px;
@@ -317,6 +315,13 @@ Top Page
   .menu-image1 {
     width: 36px;
   }
+  .header-logo a h1 img {
+    width: 40px;
+    height: 40px;
+}
+.header-logo .logo-name{
+  font-size: 18px;
+}
 }
 @media screen and (max-width: 500px) {
   .explore-blk div p {
