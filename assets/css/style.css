@@ -303,6 +303,7 @@ Top Page
     cursor: pointer;
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
   .header-menu ul li a::after {
     content: "";
