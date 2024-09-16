@@ -239,7 +239,7 @@ Top Page
   }
   .explore-blk .location-blk,
   .explore-blk .check-blk {
-    padding-right: 30px;
+    padding-right: 0;
   }
   .explore-blk .location::before {
     width: 14px;
