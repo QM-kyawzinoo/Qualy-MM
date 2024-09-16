@@ -152,7 +152,7 @@ Top Page
 }
 @media screen and (max-width: 768px) {
   .container {
-    max-width: calc((100% - 30px) / 1);
+    /* max-width: calc((100% - 30px) / 1); */
     padding: 0 5px;
     margin: 0 auto;
   }
@@ -297,14 +297,14 @@ Top Page
     display: none;
   }
 
-  .header-menu ul li {
+  .header-menu ul li a{
     font-size: 18px;
     font-weight: 400;
     cursor: pointer;
     display: flex;
     justify-content: space-between;
   }
-  .header-menu ul li::after {
+  .header-menu ul li a::after {
     content: "";
     background: url("/assets/img/arrow.png") no-repeat center/contain;
     display: inline-block;
