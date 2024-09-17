@@ -6,7 +6,10 @@ Top Page
 * {
   box-sizing: border-box;
 }
-
+body{
+  background: url("../img/mv-bg.png") no-repeat center/cover;
+  height: 100vh;
+}
 .sec-mv .container {
   max-width: 1250px;
   padding: 0 20px;
@@ -57,7 +60,7 @@ Top Page
   color: #0000;
 }
 .banner-blk {
-  background: url("../img/mv-bg.png") no-repeat center/cover;
+  /* background: url("../img/mv-bg.png") no-repeat center/cover; */
   padding-top: 120px;
   padding-bottom: 200px;
 }
@@ -221,7 +224,7 @@ Top Page
     top: 0px;
   }
   .banner-blk {
-    background: url("../img/mv-bg.png") no-repeat center/cover;
+    /* background: url("../img/mv-bg.png") no-repeat center/cover; */
     padding: 140px 0;
   }
   .explore-blk div p {
