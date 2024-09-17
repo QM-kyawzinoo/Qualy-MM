@@ -291,6 +291,7 @@ body{
     background-color: #ffffff;
     opacity: 1;
     top: 89px;
+    overflow: scroll;
   }
 
   .open-menu ul {
@@ -299,6 +300,7 @@ body{
     justify-content: normal;
     gap: 50px;
     width: calc((100% - 40px) / 1);
+   
   }
 
   .open-menu ul li {
