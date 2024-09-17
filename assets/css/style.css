@@ -57,7 +57,7 @@ Top Page
   color: #0000;
 }
 .banner-blk {
-  background: url("/assets/img/mv-bg.png") no-repeat center/cover;
+  background: url("../img/mv-bg.png") no-repeat center/cover;
   padding-top: 120px;
   padding-bottom: 200px;
 }
@@ -112,7 +112,7 @@ Top Page
 }
 .explore-blk .location::before {
   content: "";
-  background: url("/assets/img/ionic-ios-search.png") no-repeat center/contain;
+  background: url("../img/ionic-ios-search.png") no-repeat center/contain;
   width: 14px;
   height: 14px;
   display: inline-block;
@@ -221,7 +221,7 @@ Top Page
     top: 0px;
   }
   .banner-blk {
-    background: url("/assets/img/mv-bg.png") no-repeat center/cover;
+    background: url("../img/mv-bg.png") no-repeat center/cover;
     padding: 140px 0;
   }
   .explore-blk div p {
@@ -305,7 +305,7 @@ Top Page
   }
   .header-menu ul li a::after {
     content: "";
-    background: url("/assets/img/arrow.png") no-repeat center/contain;
+    background: url("../img/arrow.png") no-repeat center/contain;
     display: inline-block;
     width: 10px;
     height: 8px;
