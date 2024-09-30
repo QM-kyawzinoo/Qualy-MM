@@ -29,31 +29,12 @@
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+    
 
     <!-- css -->
     <base href="./assets/" />
@@ -61,70 +42,232 @@
 
     <!-- js -->
     <!-- Alpine -->
-    <script
-      defer
-      src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"
-    ></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <script src="js/jquery-3.7.1.min.js" defer></script>
+    <script src="js/slick.min.js" defer></script>
     <script src="js/common.js" defer></script>
+    <script>
+      (function(d) {
+        var config = {
+          kitId: 'gtk6wtq',
+          scriptTimeout: 3000,
+          async: true
+        },
+        h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+      })(document);
+    </script>
+    <script>
+      (function(d) {
+        var config = {
+          kitId: 'gtk6wtq',
+          scriptTimeout: 3000,
+          async: true
+        },
+        h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+      })(document);
+    </script>
   </head>
-
   <body>
-    <section class="sec-mv">
-      <div class="container">
-        <div class="header-blk">
-          <div class="header-logo">
-            <a href="#">
-              <h1 class="heading-logo">
-                <img src="../assets/img/globe.png" alt="logo" />
-                <span class="logo-name">Travelo</span>
-              </h1>
-            </a>
+    <section class="sec-mv" id="news">
+      <div class="nav-container">
+        <div class="nav-blk">
+          <div class="logo-blk">
+            <a href="/#">
+              <h1>
+                <img src="./img/img_logo.png" alt="">
+                <p>北海道福祉介護事業協同組合</p>
+            </h1>
+          </a>
           </div>
-          <div class="header-menu pc">
+          <div class="sp tb menu">MENU</div>
+          <div class="nav-btn">
+            <span class="bar1"></span>
+            <span class="bar2"></span>
+            <span class="bar3"></span>
+          </div>  
+          <div class="nav-list">
             <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Places</a></li>
-              <li><a href="#">Careers</a></li>
-              <li><a href="#">Blog</a></li>
+              <li>
+                <a href="/#news">お知らせ</a>
+                <p class="sp nav-meaning">News</p>
+              </li>
+              <li>
+                <a href="/#about">組合について</a>
+                <p class="sp nav-meaning">About Us</p>
+              </li>
+              <li>
+                <a href="/#myanmar">ミャンマーについて</a>
+                <p class="sp nav-meaning">About Myanmar</p>
+              </li>
+              <li>
+                <a href="/#question">よくある質問</a>
+                <p class="sp nav-meaning">Question</p>
+              </li>
+              <li class="active pc"><a href="#">お問い合わせ</a></li>
+              <li class="active sp"><a href="#">お問い合わせ</a></li>
             </ul>
           </div>
-          <div class="menu-background">
-            <img src="../assets/img/img_mu.png" alt="" class="sp menu-image" />
-          </div>
+  
         </div>
       </div>
-    </section>
-    <section>
-      <div class="banner-blk">
-        <div class="container">
-          <h2 class="banner-heading">Travel To explore</h2>
-          <p class="banner-txt">
-            Lorem Ipsum Dolor Sit Amet, Consectetur<br />
-            Adipiscing Elit, Sed Do Eiusmod Tempor Incididunt<br />
-            Ut Labore Et Dolore Magna Aliqua.
-          </p>
-         <div class="mv-explore">
-          <div class="explore-blk">
-            <div class="location-blk">
-              <p>Where You Want to go</p>
-              <span class="location">Search your Location</span>
+      <div class="container">
+        
+        <div class="mv-blk">
+          <div class="mv-left">
+            <!-- <img src="./img/mv-left.png" alt="" class="mv-left-photo"> -->
+            <div class="mv-txt">
+              <p>介護の未来を創る</p>
+              <div>北海道福祉介護事業協同組合は、北海道を中心に外国人技能実習・育成就労・特定技能制度による外国人介護人材の育成をサポートしています。</div>
             </div>
-            <div class="check-blk">
-              <p>Check-in</p>
-              <span>Add Date</span>
+           <div class="btn-blk">
+            <a href="#" class="mv-btn">お問い合わせはこちら</a>
+           </div>  
+           </div>
+           
+          <div class="banner-right">
+            <div class="mv-right">
+              <img src="./img/mv_right.png" alt="" class="mv-right-photo pc">
+              <img src="./img/img_right_sp.png" alt="" class="mv-right-photo sp">
+  
             </div>
-            <div>
-              <p>Check-out</p>
-              <span>Add Date</span>
-            </div>
-            <button type="button" class="btn pc">Explore Now</button>
           </div>
-         </div>
-          <button type="button" class="btn-sp sp">Explore Now</button>
         </div>
+        
+          <div class="join-blk">
+            <div class="first-blk">
+              <p class="notice">お知らせ</p>
+             <p class="news">News</p>
+             <a href="#" class="link pc">すべて見る</a>
+             <!-- <a href="#" class="link sp">すべて見る</a> -->
+            </div>
+            <div class="second-blk">
+              <div class="second-date">
+                <div class="date-blk">
+                  <p class="date">2023.11.01</p>
+                  <p class="date_sp sp">お知らせ</p>
+                </div>
+                <p class="txt">タイトルタイトルタイトルタイトルタイトルタイトルタイトル…</p>
+              </div>
+              <div class="second-date">
+                <div class="date-blk">
+                  <p class="date">2023.11.01</p>
+                  <p class="date_sp sp">お知らせ</p>
+                </div>
+                <p class="txt">タイトルタイトルタイトルタイトルタイトルタイトルタイトル…</p>
+              </div>
+              <div class="second-date">
+                <div class="date-blk">
+                  <p class="date">2023.11.01</p>
+                  <p class="date_sp sp">お知らせ</p>
+                </div>
+                <p class="txt last-txt">タイトルタイトルタイトルタイトルタイトルタイトルタイトル…</p>
+              </div>
+              
+            </div> 
+ 
+              <a href="#" class="link_sp sp">すべて見る</a>  
+          
+        </div>
+
       </div>
     </section>
+    <section class="sec-about" id="about">
+      <div class="container">
+        <h2 class="about-heading">組合について</h2>
+        <p class="about-us">About  Us</p>
+        <div class="txt">
+          <p>平成29年11月1日の「外国人の技能実習の適正な実施及び技能実習生の保護に関する法律」の施行にあわせ、外国人技能実習制度の対象職種に介護職種が追加されました。</p>
+          <p>現時点ではまだ「介護」サービスが一般的ではない開発途上地域においても、医療の拡充やライフスタイルの変化に伴い、「介護」サービスを享受することが当たり前になることが予想されております。</p>
+          <p>一足先に少子高齢化社会となった日本、こと北海道において、外国人材に介護技能を習得する場を提供したく、組合を設立しました。介護サービスを受ける方、実習生、一緒に仕事をする職員の方々、3者が共存しやすい環境を整えることを私どもの使命と考え、日々精進いたします。</p>
+
+        </div>
+        <div class="about-btn">
+          <a href="#">北海道福祉介護事業協同組合は</a>
+        </div>
+        <p class="image-txt">介護サービスを受ける方、実習生、一緒に仕事をする職員の方々、</p>
+        <div class="family_image">
+          <img src="./img/img_family.png" alt="" class="pc pc_family">
+          <img src="./img/img_family_sp1.png" alt="" class="sp sp_family">
+        </div>
+        <div class="detail-btn">
+          <a href="#">組合について詳しく見る</a>
+        </div>
+      </div>
+      
+      
+    </section>
+    <section class="sec-myanmar" id="myanmar">
+      <div class="container">
+        <h3>ミャンマーについて</h3>
+        <p class="about_myanamar">About  Myanmar</p>
+        <p class="description">アジアのラストフロンティアと呼ばれる、親日国</p>
+        <div class="txt">
+          <p>ミャンマーはかつてはビルマと呼ばれていた国で、歴史的にも日本と深い関わりがあります。国民の約90%が上座部仏教を信仰する仏教徒である仏教国です。</p>
+          <p>家族を大切にする、年上の人を敬う、嘘をつかない、他人に分け与えるなど仏教の教えを幼少期から学んでおり、介護人材としても適性の高い方が多くいらっしゃいます。</p>
+        <p>また、自己主張が強くなく、日本人の価値観と近い国民性です。</p>
+        </div>
+        <div class="myanmar-btn">
+          <a href="#">ミャンマーについて詳しく見る</a>
+        </div>
+        
+
+      </div>
+    </section>
+    <!-- testing -->
+    <section class="sec-accordion" id="question">
+      <div class="container">
+        <h2 class="accordion-heading">よくあるご質問</h2>
+        <p class="sub-heading">Question</p>
+        <div class="accordion">
+          <div class="accordion-blk">
+            <div class="accordion-title">
+              <span>Q</span>
+              <h3>採用にはどれくらい時間がかかりますか？</h3>
+            </div>
+            <div class="accordion-content">
+              <span>A</span>
+              <p>技能実習1号→2号だと計3年間、3号まで行くと追加で2年間です。</p>
+            </div>
+          </div>
+          <div class="accordion-blk">
+            <div class="accordion-title">
+              <span>Q</span>
+              <h3>外国人は何人まで採用できますか？</h3>
+            </div>
+            <div class="accordion-content">
+              <span>A</span>
+              <p>技能実習1号→2号だと計3年間、3号まで行くと追加で2年間です。</p>
+            </div>
+          </div>
+          <div class="accordion-blk">
+            <div class="accordion-title">
+              <span>Q</span>
+              <h3>実習生は何年間仕事をすることができますか？</h3>
+            </div>
+            <div class="accordion-content">
+              <span>A</span>
+              <p>技能実習1号→2号だと計3年間、3号まで行くと追加で2年間です。</p>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">よくあるご質問まとめ</a>
+        <!-- Top to scroll button -->
+       <!-- <div class="scroll-top">
+        <a href="javascript:void(0);" id="scroll-btn">
+          <img src="./img/img_top.png">
+        </a>
+       </div> -->
+       <div class="scrolltop">
+        <a href="javascript:void(0);" class="pagetop d-none"></a>
+      </div>
+      </div>
+    </section>
+    <section class="footer">
+     <div class="container"> 
+      <p>© 北海道福祉介護事業協同組合</p>
+    </div>
+    </section>
+
+    
   </body>
 </html>
