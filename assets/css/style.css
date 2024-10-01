@@ -36,6 +36,7 @@ body.scrollclose{
     margin: 0 auto;
     padding: 0 20px;
 }
+
 .sec-nav{
     background-color: #EFF8E3;
     /* position:sticky; */
@@ -795,6 +796,9 @@ top: 94%;
         height: 2px;
         background: #EFF8E3;
       }
+      .nav-container.nopadding{
+        padding: 0;
+    }
       .menu-name{
         font-size: 12px;
         color: #FFFFFF;
