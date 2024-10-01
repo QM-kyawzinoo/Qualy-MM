@@ -119,14 +119,15 @@ body.scrollclose{
 }
 .sec-mv .mv-blk{
     display: flex;
-    padding-top: 140px;
+    padding-top: 80px;
 }
 .mv-blk .mv-left{
     margin-left: 30px;
     position: relative;
-    background: url("../img/mv-left.png") no-repeat;
+    background: url("../img/mv-left.png") no-repeat left/contain;
     max-width: 520px;
    padding-right: 129px;
+   background-position: top;
     
 }
 .mv-left-photo
@@ -721,10 +722,13 @@ top: 94%;
     .mv-blk .mv-left .mv-txt p {
         font-family: "Noto sans", sans-serif;
         font-weight: 700;
-        font-size: 37px;
+        font-size: 32px;
         color: #000000;
         margin-bottom: 21px;
         padding-left: 0;
+    }
+    .mv-blk .mv-left {
+        padding-right: 80px;
     }
 
     .join-blk {
@@ -1207,23 +1211,24 @@ top: 94%;
     .mv-blk .mv-left {
         padding-left: 0px;
         position: relative;
-        background: url("../img/mv-left.png") no-repeat center;
+        background: url("../img/mv-left.png") no-repeat center/contain;
         display: block;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 36px;
         padding-right:0;
         width: 100%;
+        /* background-position: top; */
     }
     .sec-mv .mv-blk {
         display: block;
-        padding-top: 45px;
+        padding-top: 0px;
     }
     .mv-blk .mv-left .mv-txt p {
         font-size: 30px;
         margin-bottom: 21px;
         text-align: center;
-        padding-top: 240px;
+        padding-top: 220px;
     }
     .mv-blk .mv-left .mv-txt div {
         margin-bottom: 40px;
@@ -1245,7 +1250,7 @@ top: 94%;
         height: 30px;
     }
     .nav-blk {
-        padding:0 20px;
+        padding:0;
         background-color: transparent;
         z-index: 99;
         box-sizing: none;
@@ -1524,4 +1529,42 @@ padding: 5px 0;
     .sec-con {
         padding: 90px 0;
     }
+    .nav-btn {
+        top: -35px;
+        /* right: -24px; */
+        right: -42px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .close-btn {
+        top: -35px;
+        right: -27px;
+        width: 40px;
+        height: 40px;
+    }
+
+
+.close-btn .bar3 {
+        width: 54%;
+        height: 2px;
+        margin-right: -4px;
+        top: 14px;
+    }
+
+.close-btn .bar1 {
+        width: 54%;
+        height: 2px;
+        margin-left: 3px;
+        top: 14px;
+    }
+
+.menu-name {
+        font-size: 9px;
+    }
+
+.nav-blk .logo-blk a h1 p {
+        font-size: 14px;
+    }
+
 }
