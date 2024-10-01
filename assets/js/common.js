@@ -2,7 +2,7 @@ $(document).ready(function () {
   $(".nav-btn").on("click", function () {
     $(".nav-btn").toggleClass("close-btn");
     $(".nav-list").toggleClass("open-menu");
-    $(".nav-container").toggleClass("nopadding");
+    // $(".nav-container").toggleClass("nopadding");
     $("body").toggleClass("scrollclose");
     
 });
