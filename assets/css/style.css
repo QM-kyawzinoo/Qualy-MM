@@ -34,7 +34,20 @@ body.scrollclose{
 .nav-container{
     max-width: 1240px;
     margin: 0 auto;
+    padding: 0 20px;
 }
+.sec-nav{
+    background-color: #EFF8E3;
+    position:sticky;
+    height: 80px;
+    top: 0px;
+    z-index: 100;
+    padding-top: 30px;
+}
+.sec-nav.transparent{
+    background-color: transparent;
+}
+
 .sec-mv{
     background-color: #EFF8E3;
     /* padding-top: 30px; */
@@ -239,6 +252,7 @@ body.scrollclose{
 .join-blk .second-blk .second-date{
     display: flex;
     gap:35px;
+    cursor: pointer;
 }
 .join-blk .second-blk{
     padding-top: 15px;
@@ -695,7 +709,7 @@ top: 94%;
         padding: 20px 11px;
     }
     .nav-list ul {
-        gap: 20px;
+        gap: 17px;
     }
     .nav-blk .logo-blk a h1 p {
         font-size: 17px;
@@ -1387,6 +1401,16 @@ padding: 5px 0;
     border-radius: 12px;
     font-size: 12px;
     right:0;
+}
+/* .scrolltop.pos .pagetop {
+    position: absolute;
+    bottom: -100px;
+} */
+.scrolltop {
+    padding: 0 15px;
+}
+.scrolltop.pos .pagetop {
+    bottom: -99px;
 }
 
 }
