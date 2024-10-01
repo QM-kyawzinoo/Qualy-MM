@@ -2,14 +2,14 @@ $(document).ready(function () {
   $(".nav-btn").on("click", function () {
     $(".nav-btn").toggleClass("close-btn");
     $(".nav-list").toggleClass("open-menu");
-    // $("body").toggleClass("scrollclose");
+    $("body").toggleClass("scrollclose");
 });
 
 $(".nav-list a").on("click", function () {
     // Close the menu and navigate to the corresponding page
     $(".nav-btn").removeClass("close-btn");
     $(".nav-list").removeClass("open-menu");
-    // $("body").removeClass("scrollclose");
+    $("body").removeClass("scrollclose");
     
     // Navigate to the link's href
     window.location.href = $(this).attr("href");
