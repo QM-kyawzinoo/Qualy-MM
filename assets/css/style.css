@@ -220,6 +220,9 @@ body.scrollclose{
     color: #307C4F;
     padding-top: 25px;  
 }
+.join-blk .first-blk{
+    max-width: 110px;
+}
 .join-blk .first-blk .news{
     font-family: "lato", sans-serif;
     font-weight: 700;
@@ -235,7 +238,7 @@ body.scrollclose{
     font-weight: 600;
     font-size: 14px;
     color: #000000;
-    padding-left: 10px;
+    padding-left: 4px;
     position: relative;
 }
 
@@ -248,7 +251,8 @@ body.scrollclose{
     height: 20px;
     border-radius: 12px;
     font-size: 12px;
-    right: -27px;
+    right: 0;
+    top: -4px;
 }
 .join-blk .second-blk .second-date{
     display: flex;
@@ -259,6 +263,8 @@ body.scrollclose{
     padding-top: 15px;
     border-left: 1px dashed gray;
     padding-left: 65px;
+    width: calc((100% - 150px));
+   
 }
 
 .second-blk .second-date .date-blk .date{
@@ -679,7 +685,7 @@ top: 94%;
   .scrolltop {
     display: flex;
     justify-content: flex-end;
-    padding: 0 30px;
+    padding: 0 45px;
 }
 .scrolltop .pagetop {
     position: fixed;
@@ -691,14 +697,15 @@ top: 94%;
     background: url(../img/top.png) no-repeat;
     background-size: 100% 100%;
     z-index: 80;
-    background-color: red;
+    /* background-color: red; */
 }
 .scrolltop.pos {
     position: relative;
 }
 .scrolltop.pos .pagetop {
     position: absolute;
-    bottom: -150px;
+    /* bottom: -150px; */
+    top: -165px;
 }
 .d-none {
     display: none;
@@ -735,10 +742,13 @@ top: 94%;
         padding: 50px 40px 50px 30px;
     }
     .join-blk .second-blk {
-        padding-left: 70px;
+        padding-left: 50px;
     }
     .join-blk .first-blk{
-        padding-right: 50px;
+        padding-right: 10px;
+    }
+    .join-blk .first-blk .link::after {
+        right: -16px;
     }
     .join-blk .first-blk .notice {
         font-size: 18px;
@@ -1369,7 +1379,7 @@ top: 94%;
     .accordion-blk .accordion-content span {
         color: #fff;
         font-size: 21px;
-        padding: 29px 12px;
+        padding: 29px 10px;
     }
     .accordion-blk .accordion-content p {
         font-size: 14px;
@@ -1394,6 +1404,7 @@ top: 94%;
 }
 .join-blk .first-blk{
     padding-right: 0;
+    max-width: 100%;
 }
 .join-blk .first-blk .notice {
     text-align: center;
@@ -1473,10 +1484,10 @@ padding: 5px 0;
     bottom: -100px;
 } */
 .scrolltop {
-    padding: 0 15px;
+    padding: 0 40px;
 }
 .scrolltop.pos .pagetop {
-    bottom: -99px;
+    top: -165px;
 }
 
 }

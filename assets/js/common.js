@@ -22,39 +22,6 @@ $(".nav-list a").on("click", function () {
    $(this).toggleClass("open").next().slideToggle(500);
   });
 
-// $(window).scroll(function () {
-//   const faqSec = $(".sec-accordion");
-//   const scrollPosition = $(window).scrollTop();
-//    const faqSecOffset = faqSec.offset().top;
-
-//   if (scrollPosition <= 500) {
-//     $(".pagetop").addClass("d-none");
-//   } else {
-//     $(".pagetop").removeClass("d-none");
-//   }
-
-//   if ($(window).width() <= 768) {
-//     if (scrollPosition >= faqSecOffset + 200) {
-//       $(".scrolltop").addClass("pos");
-//     } else {
-//       $(".scrolltop").removeClass("pos");
-//     }
-//   } else {
-//     if (scrollPosition >= faqSecOffset) {
-//       $(".scrolltop").addClass("pos");
-//     } else {
-//       $(".scrolltop").removeClass("pos");
-//     }
-//   }
-  
-// });
-
-// //To Top Click
-// $(".pagetop").click(() => {
-//   window.scrollTo(0, 0);
-// });
-
-
 $(window).scroll(function(){
   const footerMain = $(".footer");
   const scrollPosition = $(window).scrollTop();
