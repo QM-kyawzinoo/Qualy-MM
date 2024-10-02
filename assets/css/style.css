@@ -1427,6 +1427,7 @@ top: 94%;
     border-left: 0px;
     border-bottom: 1px dashed gray;
     padding-left: 10px;
+    width: 100%;
 }
 .join-blk .second-blk .second-date {
     display: block;
