@@ -1581,6 +1581,7 @@ padding: 5px 0;
 
 .nav-blk .logo-blk a h1 p {
         font-size: 14px;
+        padding-right: 33px;
     }
     .close-btn .menu-name {
         margin-top: 6px;
